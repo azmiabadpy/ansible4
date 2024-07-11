@@ -1,0 +1,12 @@
+---
+- name: install apache2
+  hosts: server1
+  become: yes
+  roles:
+   - apache2
+
+- name: install nginx
+  hosts: server2
+  become: yes
+  roles:
+   - nginx  

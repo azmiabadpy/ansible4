@@ -1,0 +1,4 @@
+---
+# tasks file for nginx
+- include_tasks:  install_nfinx.yaml
+- include_tasks: copy.yml

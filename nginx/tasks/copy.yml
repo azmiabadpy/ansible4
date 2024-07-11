@@ -1,0 +1,6 @@
+---
+- name: copying the index html nginx server
+  copy:
+    src: /home/ubuntu/ansible/nginx/files/index.html
+    dest: /var/www/html
+  notify: restart nginx 
